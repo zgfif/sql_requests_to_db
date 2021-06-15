@@ -67,6 +67,6 @@ This project is used to perform some requests to existing db (E.g. home_db)
     mysql> INSERT INTO people_groups (people_id, group_id) VALUES (2, 2);
 
 
-Return all people 'some_name_of_group' type to command line:
+Return all people by 'some_name_of_group' type to command line:
 
     $ruby index.rb *'some_name_of_group'*

@@ -2,6 +2,7 @@ require 'yaml'
 require 'mysql2'
 
 require_relative './lib/database'
+require_relative './lib/readable'
 
 config = YAML.load_file('./config/config.yml')
 client = Database.new(config['db'])
