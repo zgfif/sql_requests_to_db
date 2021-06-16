@@ -19,6 +19,6 @@ class Database
 	attr_reader :db_client
 
   def cl_query(string)
-		db_client.query(string)
+		db_client.query(string).to_a
 	end
 end
